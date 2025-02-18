@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appointment - Apna Salon</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<h2>Book a Salon Appointment</h2>
+<form action="/confirmBooking" method="post">
+    <label>Select Salon:</label>
+    <select name="salonId">
+        <option value="1">Salon A</option>
+        <option value="2">Salon B</option>
+    </select>
+    <label>Select Date:</label>
+    <input type="date" name="date" required>
+    <label>Select Time:</label>
+    <input type="time" name="time" required>
+    <button type="submit">Confirm Booking</button>
+</form>
+</body>
+</html>
